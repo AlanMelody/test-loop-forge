@@ -1,0 +1,18 @@
+:root {
+  --navy: #102a54;
+  --navy-deep: #0a1e3f;
+  --bg: #f4f6fa;
+  --card: #ffffff;
+  --primary: #4f46e5;
+  --primary-hover: #4338ca;
+  --text: #1f2937;
+  --muted: #566174;
+  --border: #d7dee9;
+  --danger: #b42318;
+  --danger-soft: #fef3f2;
+  --success: #0f7b4f;
+  --warning-soft: #fff7e6;
+  --warning-border: #d97706;
+  --radius: 10px;
+  --shadow: 0 1px 3px rgba(16, 42, 84, 0.12);
+}
