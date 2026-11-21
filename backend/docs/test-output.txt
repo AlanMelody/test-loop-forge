@@ -1,0 +1,29 @@
+
+> test-loop-forge-backend@0.1.0 typecheck
+> tsc --noEmit -p tsconfig.json
+
+
+> test-loop-forge-backend@0.1.0 build
+> tsc -p tsconfig.json
+
+
+> test-loop-forge-backend@0.1.0 test
+> vitest run
+
+
+ RUN  v2.1.9 /workspace/test-loop-forge/backend
+
+ ✓ tests/unit/ai.test.ts (2 tests) 7ms
+ ✓ tests/unit/stateMachine.test.ts (3 tests) 9ms
+ ✓ tests/unit/validation.test.ts (3 tests) 9ms
+ ✓ tests/unit/password.test.ts (2 tests) 401ms
+ ✓ tests/integration/api.test.ts (7 tests) 7355ms
+   ✓ JSON API 与业务规则（真实 PostgreSQL + HTTP） > AC-10 全流程审批到 done，之后不可审批，评论全员可见 431ms
+ ✓ tests/integration/collaboration.test.ts (5 tests) 7447ms
+   ✓ Yjs 实时协作与事件广播（真实 WebSocket + PostgreSQL） > AC-7 断线重连与服务重启后内容保留 671ms
+
+ Test Files  6 passed (6)
+      Tests  22 passed (22)
+   Start at  11:20:00
+   Duration  10.68s (transform 2.48s, setup 0ms, collect 7.42s, tests 15.23s, environment 2ms, prepare 2.22s)
+
